@@ -21,3 +21,11 @@ img{
     height: 250px;
 }
 
+.texto{
+    width: 580px;
+    display: flex;
+}
+.titular{
+    text-align: left;
+}
+
