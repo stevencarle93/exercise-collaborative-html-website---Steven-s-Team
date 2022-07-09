@@ -1,17 +1,23 @@
 /*CSS Richard*/
-
 body{
-    background: #BDBDBD;
+    background: black;
+    margin: 50px;
+}
+.container-fluid{
+    background: white
 }
 .div-portfolio{
     margin-top: 120px;
 }
+.section-margin{
+    margin: 230px;
+}
 .div-flex{
     display: flex;
 }
-
 .imgPortafolio{
-    margin: 50px;
+    width: 350px;
+    height: 250px;
 }
 .div-columns{
     flex-direction: column;
@@ -22,35 +28,37 @@ h3{
 .div-columns p{
     font-size: 13px;
 }
-
-.first_heading{
-    margin-top: 120px;
-}
-
 .services{
     margin-top: 120px;
 }
-
 .contact{
     margin-top: 120px;
+    display: inline-block;
 }
 
 /*CSS Steven*/
 
+#contenido{
+    display:flex;
+    justify-content:space-between;
+}
 .texto{
     width: 580px;
-    display: flex;
+    font-size: 20px;
 }
 .texto_contact{
-    width: 700px;
+    width: 100%;
     display: flex;
 }
-.titular{
-    text-align: left;
+#titular{
+    justify-content: left;
+}
+#titular2{
+    justify-content: right;
 }
 .circular_image {
-    width: 300px;
-    height: 300px;
+    width: 380px;
+    height: 380px;
     border-radius: 100%;
     overflow: hidden;
     background-color: blue;
@@ -59,12 +67,19 @@ h3{
 }
 
 form{
-	background-color: white;
-	width: auto;
+	width: 800px;
 	height: auto;
     padding: 10px;
+    display: inline-block;
+    background: #f5f5f5;
+    border:#4A6682;
 }
-
+.form-field{
+    display: flex;
+}
+label{
+    width: 150px;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -102,8 +117,8 @@ input[type=text], select, textarea {
 
 /*CSS Elizabeth*/
 
-  .imgHead {width:100%;}
-  .tagline, .navbar {display: flex;}
+  .imgHead {width:100%; z-index: 0;}
+  .tagline {position:relative; display: inline-block;}
   .navbar {
       list-style-type: none;
       margin: 0;
@@ -119,6 +134,6 @@ input[type=text], select, textarea {
       display: block;
       text-align: center;
       padding: 14px 16px;}
-  #navh1, #navh2 {position: absolute;}
-  #navh1 { margin-top: 90px; background-color: white; font-size:150px; margin-left:40px; margin-right: 40px;}
-  #navh2 { margin-top: 290px; background-color: white; font-size:90px; margin-left:140px; margin-right: 140px;}
+  
+  #navh1 { position:absolute; top: 90px; padding-left: 10%; padding-right: 29%; background-color: white; font-size:140px; z-index: 1; }
+  #navh2 { position:absolute; top: 280px; padding-left: 15%; padding-right: 36%; background-color: white; font-size:80px; z-index: 1; text-align: center;}
