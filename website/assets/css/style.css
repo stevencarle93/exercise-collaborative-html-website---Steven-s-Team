@@ -1,3 +1,139 @@
+/*CSS Richard*/
 body{
-    background: #BDBDBD;
+    background: black;
+    margin: 50px;
 }
+.container-fluid{
+    background: white
+}
+.div-portfolio{
+    margin-top: 120px;
+}
+.section-margin{
+    margin: 230px;
+}
+.div-flex{
+    display: flex;
+}
+.imgPortafolio{
+    width: 350px;
+    height: 250px;
+}
+.div-columns{
+    flex-direction: column;
+}
+h3{
+    color: #4A6682;
+}
+.div-columns p{
+    font-size: 13px;
+}
+.services{
+    margin-top: 120px;
+}
+.contact{
+    margin-top: 120px;
+    display: inline-block;
+}
+
+/*CSS Steven*/
+
+#contenido{
+    display:flex;
+    justify-content:space-between;
+}
+.texto{
+    width: 580px;
+    font-size: 20px;
+}
+.texto_contact{
+    width: 100%;
+    display: flex;
+}
+#titular{
+    justify-content: left;
+}
+#titular2{
+    justify-content: right;
+}
+.circular_image {
+    width: 380px;
+    height: 380px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: blue;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+form{
+	width: 800px;
+	height: auto;
+    padding: 10px;
+    display: inline-block;
+    background: #f5f5f5;
+    border:#4A6682;
+}
+.form-field{
+    display: flex;
+}
+label{
+    width: 150px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/*CSS Elizabeth*/
+
+  .imgHead {width:100%; z-index: 0;}
+  .tagline {position:relative; display: inline-block;}
+  .navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      flex-direction: row;
+      background-color: #333;
+    justify-content: left;}
+    .li1 {float: left;}
+    .navbar .li1 a {
+      float: left;
+      font-size: 15px;
+      color: white;
+      display: block;
+      text-align: center;
+      padding: 14px 16px;}
+  
+  #navh1 { position:absolute; top: 90px; padding-left: 10%; padding-right: 29%; background-color: white; font-size:140px; z-index: 1; }
+  #navh2 { position:absolute; top: 280px; padding-left: 15%; padding-right: 36%; background-color: white; font-size:80px; z-index: 1; text-align: center;}
